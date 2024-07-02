@@ -1,189 +1,116 @@
 const questions = {
   "2024-07-01": [
     {
-      question: "이 태그는 하이퍼링크를 정의하는 데 사용됩니다.",
+      question:
+        "현재 디렉토리의 파일과 폴더 목록을 표시하는 명령어는 무엇인가요?",
       answers: [
-        { text: "<a>", correct: true },
-        { text: "<link>", correct: false },
-        { text: "<nav>", correct: false },
-        { text: "<href>", correct: false },
+        { text: "dir", correct: true },
+        { text: "cd", correct: false },
+        { text: "mkdir", correct: false },
+        { text: "del", correct: false },
       ],
     },
     {
-      question: "이 태그는 단락을 만드는 데 사용됩니다.",
+      question: "상위 폴더로 이동하려면 어떤 명령어를 사용해야 하나요?",
       answers: [
-        { text: "<p>", correct: true },
-        { text: "<para>", correct: false },
-        { text: "<pg>", correct: false },
-        { text: "<text>", correct: false },
+        { text: "cd ..", correct: true },
+        { text: "cd /", correct: false },
+        { text: "cd", correct: false },
+        { text: "cd \\..", correct: false },
       ],
     },
     {
-      question: "이 태그는 이미지를 정의하는 데 사용됩니다.",
+      question: "새로운 디렉토리를 생성하는 명령어는 무엇인가요?",
       answers: [
-        { text: "<img>", correct: true },
-        { text: "<picture>", correct: false },
-        { text: "<src>", correct: false },
-        { text: "<image>", correct: false },
+        { text: "mkdir", correct: true },
+        { text: "rmdir", correct: false },
+        { text: "mkfile", correct: false },
+        { text: "newdir", correct: false },
       ],
     },
     {
-      question: "이 태그는 표 행을 만드는 데 사용됩니다.",
+      question: "파일을 삭제하는 명령어는 무엇인가요?",
       answers: [
-        { text: "<tr>", correct: true },
-        { text: "<td>", correct: false },
-        { text: "<th>", correct: false },
-        { text: "<row>", correct: false },
-      ],
-    },
-  ],
-  "2024-07-02": [
-    {
-      question: "이 태그는 표에서 헤더 셀을 정의하는 데 사용됩니다.",
-      answers: [
-        { text: "<th>", correct: true },
-        { text: "<thead>", correct: false },
-        { text: "<header>", correct: false },
-        { text: "<h1>", correct: false },
-      ],
-    },
-    {
-      question: "이 태그는 폼을 만드는 데 사용됩니다.",
-      answers: [
-        { text: "<form>", correct: true },
-        { text: "<input>", correct: false },
-        { text: "<textarea>", correct: false },
-        { text: "<fieldset>", correct: false },
-      ],
-    },
-    {
-      question: "이 태그는 리스트 아이템을 정의하는 데 사용됩니다.",
-      answers: [
-        { text: "<li>", correct: true },
-        { text: "<ul>", correct: false },
-        { text: "<ol>", correct: false },
-        { text: "<item>", correct: false },
-      ],
-    },
-    {
-      question: "이 태그는 디비전 또는 섹션을 정의하는 데 사용됩니다.",
-      answers: [
-        { text: "<div>", correct: true },
-        { text: "<span>", correct: false },
-        { text: "<section>", correct: false },
-        { text: "<part>", correct: false },
-      ],
-    },
-    {
-      question: "이 태그는 줄 바꿈을 정의하는 데 사용됩니다.",
-      answers: [
-        { text: "<br>", correct: true },
-        { text: "<break>", correct: false },
-        { text: "<lb>", correct: false },
-        { text: "<newline>", correct: false },
-      ],
-    },
-    {
-      question: "이 태그는 순서가 있는 리스트를 정의하는 데 사용됩니다.",
-      answers: [
-        { text: "<ol>", correct: true },
-        { text: "<ul>", correct: false },
-        { text: "<list>", correct: false },
-        { text: "<order>", correct: false },
-      ],
-    },
-    {
-      question: "이 태그는 순서가 없는 리스트를 정의하는 데 사용됩니다.",
-      answers: [
-        { text: "<ul>", correct: true },
-        { text: "<ol>", correct: false },
-        { text: "<list>", correct: false },
-        { text: "<unordered>", correct: false },
-      ],
-    },
-  ],
-  "2024-07-05": [
-    {
-      question: "이 태그는 브라우저 툴바의 제목을 정의하는 데 사용됩니다.",
-      answers: [
-        { text: "<title>", correct: true },
-        { text: "<head>", correct: false },
-        { text: "<meta>", correct: false },
-        { text: "<header>", correct: false },
+        { text: "del", correct: true },
+        { text: "erase", correct: false },
+        { text: "remove", correct: false },
+        { text: "delete", correct: false },
       ],
     },
     {
       question:
-        "이 태그는 HTML 문서에 대한 메타데이터를 정의하는 데 사용됩니다.",
+        "절대 경로를 사용하여 C 드라이브의 Program Files로 이동하려면 어떤 명령어를 사용해야 하나요?",
       answers: [
-        { text: "<meta>", correct: true },
-        { text: "<link>", correct: false },
-        { text: "<script>", correct: false },
-        { text: "<style>", correct: false },
-      ],
-    },
-    {
-      question: "이 태그는 문서 내 섹션을 정의하는 데 사용됩니다.",
-      answers: [
-        { text: "<section>", correct: true },
-        { text: "<div>", correct: false },
-        { text: "<article>", correct: false },
-        { text: "<header>", correct: false },
+        { text: "cd C:\\Program Files", correct: true },
+        { text: "cd ..\\Program Files", correct: false },
+        { text: "cd Program Files", correct: false },
+        { text: "cd C:/Program Files", correct: false },
       ],
     },
     {
       question:
-        "이 태그는 좌우로 플로팅할 수 있는 콘텐츠 블록을 정의하는 데 사용됩니다.",
+        "상대 경로를 사용하여 현재 위치에서 Documents 폴더로 이동하려면 어떤 명령어를 사용해야 하나요?",
       answers: [
-        { text: "<float>", correct: false },
-        { text: "<div>", correct: true },
-        { text: "<section>", correct: false },
-        { text: "<aside>", correct: false },
+        { text: "cd Documents", correct: true },
+        { text: "cd \\Documents", correct: false },
+        { text: "cd C:\\Documents", correct: false },
+        { text: "cd /Documents", correct: false },
       ],
     },
     {
-      question: "이 태그는 인라인 컨테이너를 정의하는 데 사용됩니다.",
+      question: "현재 디렉토리의 내용을 지우는 명령어는 무엇인가요?",
       answers: [
-        { text: "<span>", correct: true },
-        { text: "<div>", correct: false },
-        { text: "<container>", correct: false },
-        { text: "<inline>", correct: false },
+        { text: "cls", correct: true },
+        { text: "clear", correct: false },
+        { text: "erase", correct: false },
+        { text: "clean", correct: false },
       ],
     },
     {
-      question: "이 태그는 강조된 텍스트를 정의하는 데 사용됩니다.",
+      question: "네트워크 연결 상태를 테스트하는 명령어는 무엇인가요?",
       answers: [
-        { text: "<em>", correct: true },
-        { text: "<i>", correct: false },
-        { text: "<strong>", correct: false },
-        { text: "<italic>", correct: false },
+        { text: "ping", correct: true },
+        { text: "testnet", correct: false },
+        { text: "netping", correct: false },
+        { text: "checknet", correct: false },
       ],
     },
     {
-      question: "이 태그는 강한 텍스트를 정의하는 데 사용됩니다.",
+      question: "파일을 복사하는 명령어는 무엇인가요?",
       answers: [
-        { text: "<strong>", correct: true },
-        { text: "<b>", correct: false },
-        { text: "<em>", correct: false },
-        { text: "<bold>", correct: false },
+        { text: "copy", correct: true },
+        { text: "cp", correct: false },
+        { text: "duplicate", correct: false },
+        { text: "clone", correct: false },
       ],
     },
     {
-      question: "이 태그는 블록 인용을 정의하는 데 사용됩니다.",
+      question: "파일을 이동하거나 이름을 변경하는 명령어는 무엇인가요?",
       answers: [
-        { text: "<blockquote>", correct: true },
-        { text: "<quote>", correct: false },
-        { text: "<q>", correct: false },
-        { text: "<cite>", correct: false },
+        { text: "move", correct: true },
+        { text: "rename", correct: false },
+        { text: "shift", correct: false },
+        { text: "transfer", correct: false },
       ],
     },
     {
-      question: "이 태그는 문서나 섹션의 푸터를 정의하는 데 사용됩니다.",
+      question:
+        "C 드라이브의 모든 파일과 폴더 목록을 표시하려면 어떤 명령어를 사용해야 하나요?",
       answers: [
-        { text: "<footer>", correct: true },
-        { text: "<bottom>", correct: false },
-        { text: "<foot>", correct: false },
-        { text: "<end>", correct: false },
+        { text: "dir C:\\", correct: true },
+        { text: "cd C:\\", correct: false },
+        { text: "dir", correct: false },
+        { text: "list C:\\", correct: false },
+      ],
+    },
+    {
+      question:
+        "새로운 디렉토리를 생성하고 그 디렉토리로 이동하려면 어떤 명령어를 사용해야 하나요?",
+      answers: [
+        { text: "mkdir NewDir && cd NewDir", correct: true },
+        { text: "mkdir NewDir & cd NewDir", correct: false },
+        { text: "mkdir NewDir; cd NewDir", correct: false },
+        { text: "mkdir NewDir | cd NewDir", correct: false },
       ],
     },
   ],
