@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f3f3f3;
+}
+
+.calendar-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.calendar-container h2 {
+  margin-bottom: 20px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nav-btn {
+  padding: 5px 10px;
+  margin: 0 10px;
+  font-size: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-weight: bold;
+}
+
+#current-month {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.calendar-day {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.calendar-day.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.calendar-day.header {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  cursor: default;
+}
+
+.quiz-container {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#quiz-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#question-number {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.correct {
+  background-color: #28a745 !important;
+}
+
+.wrong {
+  background-color: #dc3545 !important;
+}
+
+.selected {
+  background-color: #ffc107 !important;
+}
+
+.hide {
+  display: none;
+}
+
+#score-container {
+  margin-top: 20px;
+}
+
+#score {
+  font-size: 1.5em; /* h2 크기 정도 */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.result {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.low-score {
+  color: red;
+}
+
+.mid-score {
+  color: orangered;
+}
+
+.high-score {
+  color: green;
+}
+
+#back-to-calendar {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#back-to-calendar:hover {
+  background-color: #0056b3;
+}
