@@ -264,5 +264,143 @@ const questions = {
         { text: "<field>", correct: false },
       ],
     },
+    {
+      question:
+        "HTML 문서의 head 내에서 외부 스타일시트를 연결하기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<link rel='stylesheet' href='style.css'>", correct: true },
+        { text: "<style src='style.css'>", correct: false },
+        { text: "<css link='style.css'>", correct: false },
+        { text: "<stylesheet href='style.css'>", correct: false },
+      ],
+    },
+    {
+      question:
+        "특정 ID를 가진 요소를 선택하기 위해 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: "#id", correct: true },
+        { text: ".id", correct: false },
+        { text: "id", correct: false },
+        { text: "*id", correct: false },
+      ],
+    },
+    {
+      question:
+        "특정 클래스를 가진 요소를 선택하기 위해 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: ".class", correct: true },
+        { text: "#class", correct: false },
+        { text: "class", correct: false },
+        { text: "*class", correct: false },
+      ],
+    },
+    {
+      question:
+        "특정 속성을 가진 요소를 선택하기 위해 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: "[attribute]", correct: true },
+        { text: ".attribute", correct: false },
+        { text: "#attribute", correct: false },
+        { text: "attribute", correct: false },
+      ],
+    },
+    {
+      question:
+        "특정 ID와 태그를 조합하여 선택하기 위해 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: "tag#id", correct: true },
+        { text: "#tag#id", correct: false },
+        { text: "tag.id", correct: false },
+        { text: ".tag#id", correct: false },
+      ],
+    },
+    {
+      question:
+        "특정 요소의 직계 자식을 선택하기 위해 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: "parent > child", correct: true },
+        { text: "parent child", correct: false },
+        { text: "parent + child", correct: false },
+        { text: "parent ~ child", correct: false },
+      ],
+    },
+    {
+      question:
+        "특정 요소의 모든 하위 요소를 선택하기 위해 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: "ancestor descendant", correct: true },
+        { text: "ancestor > descendant", correct: false },
+        { text: "ancestor + descendant", correct: false },
+        { text: "ancestor ~ descendant", correct: false },
+      ],
+    },
+    {
+      question:
+        "특정 요소의 인접 형제 요소를 선택하기 위해 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: "prev + next", correct: true },
+        { text: "prev ~ next", correct: false },
+        { text: "prev > next", correct: false },
+        { text: "prev next", correct: false },
+      ],
+    },
+    {
+      question:
+        "특정 요소의 모든 형제 요소를 선택하기 위해 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: "prev ~ siblings", correct: true },
+        { text: "prev + siblings", correct: false },
+        { text: "prev > siblings", correct: false },
+        { text: "prev siblings", correct: false },
+      ],
+    },
+    {
+      question:
+        "마우스를 올렸을 때 스타일을 적용하기 위해 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: ":hover", correct: true },
+        { text: ":active", correct: false },
+        { text: ":focus", correct: false },
+        { text: ":selected", correct: false },
+      ],
+    },
+    {
+      question:
+        "a 태그에서 한 번도 방문하지 않은 링크일 때 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: ":linked", correct: false },
+        { text: ":link", correct: true },
+        { text: ":notvisited", correct: false },
+        { text: ":none", correct: false },
+      ],
+    },
+    {
+      question: "입력 요소에 커서가 활성화될 때 사용하는 선택자는 무엇인가요?",
+      answers: [
+        { text: ":focus", correct: true },
+        { text: ":checked", correct: false },
+        { text: ":enable", correct: false },
+        { text: ":enabled", correct: false },
+      ],
+    },
+    {
+      question: "다음 중 가상 클래스 선택자가 아닌 것은 무엇인가요?",
+      answers: [
+        { text: ":first-letter", correct: true },
+        { text: ":first-of-type", correct: false },
+        { text: ":nth-child(n)", correct: false },
+        { text: ":nth-last-of-type(n)", correct: false },
+      ],
+    },
+    {
+      question:
+        "E 요소의 마지막 자식 요소를 선택자로 지정하는 것은 무엇인가요?",
+      answers: [
+        { text: ":last-child", correct: true },
+        { text: ":last-of-child", correct: false },
+        { text: ":last-of-type", correct: false },
+        { text: ":last-type", correct: false },
+      ],
+    },
   ],
 };
