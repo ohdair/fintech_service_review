@@ -13,8 +13,8 @@ function createCalendar() {
   const year = currentMonth.getFullYear();
   const month = currentMonth.getMonth();
 
-  const firstDayOfMonth = new Date(year, month, 1).getDay();
-  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const firstDayOfMonth = new Date(Date.UTC(year, month, 1)).getUTCDay();
+  const daysInMonth = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
 
   calendarElement.innerHTML = "";
   currentMonthElement.innerText = currentMonth.toLocaleDateString("ko-KR", {
