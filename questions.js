@@ -114,4 +114,155 @@ const questions = {
       ],
     },
   ],
+  "2024-07-02": [
+    {
+      question:
+        "텍스트를 굵게 표시하기 위해 사용하는 태그는 무엇인가요? (현재 자주 사용되는)",
+      answers: [
+        { text: "<b>", correct: false },
+        { text: "<strong>", correct: true },
+        { text: "<bold>", correct: false },
+        { text: "<em>", correct: false },
+      ],
+    },
+    {
+      question: "순서가 있는 목록을 만들기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<ol>", correct: true },
+        { text: "<ul>", correct: false },
+        { text: "<li>", correct: false },
+        { text: "<list>", correct: false },
+      ],
+    },
+    {
+      question: "하이퍼링크를 만들기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<a>", correct: true },
+        { text: "<link>", correct: false },
+        { text: "<href>", correct: false },
+        { text: "<anchor>", correct: false },
+      ],
+    },
+    {
+      question: "이미지를 삽입하기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<img>", correct: true },
+        { text: "<image>", correct: false },
+        { text: "<pic>", correct: false },
+        { text: "<picture>", correct: false },
+      ],
+    },
+    {
+      question:
+        "텍스트를 기울여 표시하기 위해 사용하는 태그는 무엇인가요? (현재 자주 사용되는)",
+      answers: [
+        { text: "<i>", correct: false },
+        { text: "<em>", correct: true },
+        { text: "<italic>", correct: false },
+        { text: "<tilt>", correct: false },
+      ],
+    },
+    {
+      question: "체크박스를 만드는 태그는 무엇인가요?",
+      answers: [
+        { text: "<input type='checkbox'>", correct: true },
+        { text: "<checkbox>", correct: false },
+        { text: "<check>", correct: false },
+        { text: "<input type='check'>", correct: false },
+      ],
+    },
+    {
+      question: "표를 만들기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<table>", correct: true },
+        { text: "<tr>", correct: false },
+        { text: "<td>", correct: false },
+        { text: "<th>", correct: false },
+      ],
+    },
+    {
+      question: "표의 행을 정의하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<tr>", correct: true },
+        { text: "<table>", correct: false },
+        { text: "<td>", correct: false },
+        { text: "<row>", correct: false },
+      ],
+    },
+    {
+      question: "표의 셀을 정의하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<td>", correct: true },
+        { text: "<tr>", correct: false },
+        { text: "<table>", correct: false },
+        { text: "<cell>", correct: false },
+      ],
+    },
+    {
+      question: "순서가 없는 목록을 만들기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<ul>", correct: true },
+        { text: "<ol>", correct: false },
+        { text: "<li>", correct: false },
+        { text: "<list>", correct: false },
+      ],
+    },
+    {
+      question:
+        "순서가 있는 목록에서 항목을 추가하기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<li>", correct: true },
+        { text: "<ol>", correct: false },
+        { text: "<ul>", correct: false },
+        { text: "<item>", correct: false },
+      ],
+    },
+    {
+      question: "텍스트 입력 필드를 만들기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<input type='text'>", correct: true },
+        { text: "<textbox>", correct: false },
+        { text: "<input>", correct: false },
+        { text: "<textarea>", correct: false },
+      ],
+    },
+    {
+      question: "드롭다운 목록을 만들기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<select>", correct: true },
+        { text: "<dropdown>", correct: false },
+        { text: "<list>", correct: false },
+        { text: "<option>", correct: false },
+      ],
+    },
+    {
+      question:
+        "이미지의 대체 텍스트를 지정하기 위해 사용하는 속성은 무엇인가요?",
+      answers: [
+        { text: "alt", correct: true },
+        { text: "title", correct: false },
+        { text: "src", correct: false },
+        { text: "description", correct: false },
+      ],
+    },
+    {
+      question: "폼을 제출하는 버튼을 만들기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<input type='submit'>", correct: true },
+        { text: "<button>", correct: false },
+        { text: "<submit>", correct: false },
+        { text: "<input type='button'>", correct: false },
+      ],
+    },
+    {
+      question:
+        "폼의 입력 필드와 레이블을 그룹화하기 위해 사용하는 태그는 무엇인가요?",
+      answers: [
+        { text: "<fieldset>", correct: true },
+        { text: "<form>", correct: false },
+        { text: "<group>", correct: false },
+        { text: "<field>", correct: false },
+      ],
+    },
+  ],
 };
