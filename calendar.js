@@ -5,7 +5,6 @@ const currentMonthElement = document.getElementById("current-month");
 const prevMonthButton = document.getElementById("prev-month");
 const nextMonthButton = document.getElementById("next-month");
 
-// questions 객체를 통해 availableDates를 동적으로 생성
 const availableDates = Object.keys(questions);
 
 let currentMonth = new Date();
@@ -23,7 +22,6 @@ function createCalendar() {
     month: "long",
   });
 
-  // 요일 헤더 추가
   const daysOfWeek = ["일", "월", "화", "수", "목", "금", "토"];
   daysOfWeek.forEach((day) => {
     const dayHeader = document.createElement("div");
@@ -32,16 +30,14 @@ function createCalendar() {
     calendarElement.appendChild(dayHeader);
   });
 
-  // 빈 셀 추가
   for (let i = 0; i < firstDayOfMonth; i++) {
     const emptyCell = document.createElement("div");
     emptyCell.classList.add("calendar-day", "disabled");
     calendarElement.appendChild(emptyCell);
   }
 
-  // 날짜 셀 추가
   for (let day = 1; day <= daysInMonth; day++) {
-    const date = new Date(year, month, day);
+    const date = new Date(Date.UTC(year, month, day));
     const dateString = date.toISOString().split("T")[0];
 
     const dayElement = document.createElement("div");
