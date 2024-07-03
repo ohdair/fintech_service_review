@@ -403,4 +403,141 @@ const questions = {
       ],
     },
   ],
+  "2024-07-03": [
+    {
+      question: "::before 의 기능은 무엇인가요?",
+      answers: [
+        { text: "선택자의 내용 앞에 콘텐츠를 삽입한다.", correct: true },
+        { text: "선택자의 내용 뒤에 콘텐츠를 삽입한다.", correct: false },
+        { text: "선택자의 내용을 대체한다.", correct: false },
+        { text: "선택자의 스타일을 초기화한다.", correct: false },
+      ],
+    },
+    {
+      question: "::invalid 의 기능은 무엇인가요?",
+      answers: [
+        { text: "유효한 폼 필드를 선택한다.", correct: false },
+        { text: "비어 있는 폼 필드를 선택한다.", correct: false },
+        { text: "유효하지 않은 폼 필드를 선택한다.", correct: true },
+        { text: "선택된 폼 필드를 선택한다.", correct: false },
+      ],
+    },
+    {
+      question: "CSS 단위 중 상대 단위는 무엇인가요?",
+      answers: [
+        { text: "px", correct: false },
+        { text: "em", correct: true },
+        { text: "cm", correct: false },
+        { text: "mm", correct: false },
+      ],
+    },
+    {
+      question: "HEX 색상 표기법에서 빨간색을 나타내는 코드는 무엇인가요?",
+      answers: [
+        { text: "#FF0000", correct: true },
+        { text: "#00FF00", correct: false },
+        { text: "#0000FF", correct: false },
+        { text: "#FFFF00", correct: false },
+      ],
+    },
+    {
+      question: "CSS에서 텍스트의 두께를 조절하는 속성은 무엇인가요?",
+      answers: [
+        { text: "font-weight", correct: true },
+        { text: "font-size", correct: false },
+        { text: "text-align", correct: false },
+        { text: "line-height", correct: false },
+      ],
+    },
+    {
+      question: "CSS에서 부모 요소로부터 상속되지 않는 속성은 무엇인가요?",
+      answers: [
+        { text: "color", correct: false },
+        { text: "font-family", correct: false },
+        { text: "border", correct: true },
+        { text: "line-height", correct: false },
+      ],
+    },
+    {
+      question: "CSS에서 아이디 선택자는 어떻게 표시하나요?",
+      answers: [
+        { text: "#", correct: true },
+        { text: ".", correct: false },
+        { text: ":", correct: false },
+        { text: "::", correct: false },
+      ],
+    },
+    {
+      question: "CSS에서 모든 요소를 선택하는 방법은 무엇인가요?",
+      answers: [
+        { text: "*", correct: true },
+        { text: "#", correct: false },
+        { text: ".", correct: false },
+        { text: ":", correct: false },
+      ],
+    },
+    {
+      question: `다음 중 "/^[a-zA-Z]+$/" 규칙으로 문자열을 포함하는 것은 무엇인가요?`,
+      answers: [
+        { text: "정규 표현식", correct: true },
+        { text: "정한 표현식", correct: false },
+        { text: "특정 문자 규칙", correct: false },
+        { text: "정규 문자식", correct: false },
+      ],
+    },
+    {
+      question: `다음 중 텍스트 속성이 아닌 것을 고르세요`,
+      answers: [
+        { text: "font-color", correct: true },
+        { text: "font-weight", correct: false },
+        { text: "font-variant", correct: false },
+        { text: "font-family", correct: false },
+      ],
+    },
+    {
+      question: `뷰 포트의 너비를 기준으로 상태적인 크기를 가지는 상대 단위는 무엇인가요?`,
+      answers: [
+        { text: "vw", correct: true },
+        { text: "vh", correct: false },
+        { text: "%", correct: false },
+        { text: "rem", correct: false },
+      ],
+    },
+    {
+      question: `뷰 포트의 너비를 기준으로 상태적인 크기를 가지는 상대 단위는 무엇인가요?`,
+      answers: [
+        { text: "vw", correct: true },
+        { text: "vh", correct: false },
+        { text: "%", correct: false },
+        { text: "rem", correct: false },
+      ],
+    },
+    {
+      question: "요소의 외부 여백 좌우 20px을 넣을 때 어떻게 써야할까요?",
+      answers: [
+        { text: "margin: 0 20px;", correct: true },
+        { text: "padding: 0 20px;", correct: false },
+        { text: "margin: 20px 0;", correct: false },
+        { text: "padding: 20px 0;", correct: false },
+      ],
+    },
+    {
+      question: "내부 여백을 설정하는 속성은 무엇인가요?",
+      answers: [
+        { text: "padding", correct: true },
+        { text: "margin", correct: false },
+        { text: "border", correct: false },
+        { text: "spacing", correct: false },
+      ],
+    },
+    {
+      question: "CSS에서 요소를 중앙에 배치하는 방법은 무엇인가요?",
+      answers: [
+        { text: "text-align: center;", correct: false },
+        { text: "margin: auto;", correct: true },
+        { text: "padding: auto;", correct: false },
+        { text: "display: block;", correct: false },
+      ],
+    },
+  ],
 };
