@@ -539,5 +539,55 @@ const questions = {
         { text: "display: block;", correct: false },
       ],
     },
+    {
+      question:
+        "CSS에서 배경 이미지를 반복하지 않게 설정하는 방법은 무엇인가요?",
+      answers: [
+        { text: "background-color: none;", correct: false },
+        { text: "background-repeat: no-repeat;", correct: true },
+        { text: "background-size: cover;", correct: false },
+        { text: "background-position: center;", correct: false },
+      ],
+    },
+    {
+      question:
+        "요소를 화면의 오른쪽 하단에 고정시키려면 어떤 속성을 사용해야 하나요?",
+      answers: [
+        { text: "position: absolute; bottom: 0; right: 0;", correct: true },
+        { text: "position: relative; bottom: 0; right: 0;", correct: false },
+        { text: "position: fixed; top: 0; left: 0;", correct: false },
+        { text: "position: sticky; bottom: 0; right: 0;", correct: false },
+      ],
+    },
+    {
+      question:
+        "float 속성을 사용하여 요소를 왼쪽으로 배치하는 방법은 무엇인가요?",
+      answers: [
+        { text: "float: left;", correct: true },
+        { text: "display: inline;", correct: false },
+        { text: "margin-left: auto;", correct: false },
+        { text: "align: left;", correct: false },
+      ],
+    },
+    {
+      question:
+        "요소의 배경 이미지를 화면에 꽉 차게 설정하려면 어떤 속성을 사용해야 하나요?",
+      answers: [
+        { text: "background-size: cover;", correct: true },
+        { text: "background-size: contain;", correct: false },
+        { text: "background-position: cover;", correct: false },
+        { text: "background-repeat: stretch;", correct: false },
+      ],
+    },
+    {
+      question:
+        "position 속성 중 다른 요소와의 상대적 위치를 기준으로 배치되는 것은 무엇인가요?",
+      answers: [
+        { text: "position: absolute;", correct: false },
+        { text: "position: fixed;", correct: false },
+        { text: "position: relative;", correct: true },
+        { text: "position: static;", correct: false },
+      ],
+    },
   ],
 };
