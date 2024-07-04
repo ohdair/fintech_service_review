@@ -504,15 +504,6 @@ const questions = {
       ],
     },
     {
-      question: `뷰 포트의 너비를 기준으로 상태적인 크기를 가지는 상대 단위는 무엇인가요?`,
-      answers: [
-        { text: "vw", correct: true },
-        { text: "vh", correct: false },
-        { text: "%", correct: false },
-        { text: "rem", correct: false },
-      ],
-    },
-    {
       question: "요소의 외부 여백 좌우 20px을 넣을 때 어떻게 써야할까요?",
       answers: [
         { text: "margin: 0 20px;", correct: true },
