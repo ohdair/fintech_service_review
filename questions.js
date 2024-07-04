@@ -581,4 +581,128 @@ const questions = {
       ],
     },
   ],
+  "2024-07-04": [
+    {
+      question: "CSS Grid에서 'grid-template-columns'는 무엇을 설정하나요?",
+      answers: [
+        { text: "그리드 컨테이너의 행을 정의합니다.", correct: false },
+        { text: "그리드 컨테이너의 열을 정의합니다.", correct: true },
+        { text: "그리드 항목의 간격을 정의합니다.", correct: false },
+        { text: "그리드 항목의 크기를 조정합니다.", correct: false },
+      ],
+    },
+    {
+      question: "CSS Flexbox에서 'justify-content'는 무엇을 설정하나요?",
+      answers: [
+        {
+          text: "플렉스 컨테이너 내의 아이템의 수직 정렬을 설정합니다.",
+          correct: false,
+        },
+        {
+          text: "플렉스 컨테이너 내의 아이템의 가로 정렬을 설정합니다.",
+          correct: true,
+        },
+        {
+          text: "플렉스 컨테이너 내의 아이템의 크기를 조정합니다.",
+          correct: false,
+        },
+        { text: "플렉스 컨테이너의 방향을 설정합니다.", correct: false },
+      ],
+    },
+    {
+      question: "'transition' 속성은 무엇을 제어하나요?",
+      answers: [
+        {
+          text: "CSS 속성의 변화에 애니메이션 효과를 추가합니다.",
+          correct: true,
+        },
+        { text: "CSS 속성의 초기 값을 설정합니다.", correct: false },
+        { text: "CSS 속성의 우선순위를 설정합니다.", correct: false },
+        { text: "CSS 속성의 상태를 리셋합니다.", correct: false },
+      ],
+    },
+    {
+      question: "CSS Flexbox에서 'flex-direction' 속성은 무엇을 설정하나요?",
+      answers: [
+        {
+          text: "플렉스 컨테이너 내의 아이템의 가로 정렬을 설정합니다.",
+          correct: false,
+        },
+        {
+          text: "플렉스 컨테이너 내의 아이템의 수직 정렬을 설정합니다.",
+          correct: false,
+        },
+        {
+          text: "플렉스 컨테이너 내의 아이템의 배치 방향을 설정합니다.",
+          correct: true,
+        },
+        { text: "플렉스 컨테이너의 크기를 설정합니다.", correct: false },
+      ],
+    },
+    {
+      question: "'transition' 속성의 하위 속성 중 하나가 아닌 것은 무엇인가요?",
+      answers: [
+        { text: "transition-delay", correct: false },
+        { text: "transition-duration", correct: false },
+        { text: "transition-property", correct: false },
+        { text: "transition-repeat", correct: true },
+      ],
+    },
+    {
+      question: "CSS Grid에서 'grid-template-rows'는 무엇을 설정하나요?",
+      answers: [
+        { text: "그리드 컨테이너의 열을 정의합니다.", correct: false },
+        { text: "그리드 컨테이너의 행을 정의합니다.", correct: true },
+        { text: "그리드 항목의 간격을 정의합니다.", correct: false },
+        { text: "그리드 항목의 크기를 조정합니다.", correct: false },
+      ],
+    },
+    {
+      question: "CSS Grid에서 'grid-area' 속성은 무엇을 설정하나요?",
+      answers: [
+        { text: "그리드 항목의 이름을 정의합니다.", correct: false },
+        { text: "그리드 항목의 영역을 정의합니다.", correct: true },
+        { text: "그리드 항목의 크기를 정의합니다.", correct: false },
+        { text: "그리드 항목의 간격을 정의합니다.", correct: false },
+      ],
+    },
+    {
+      question: "CSS Flexbox에서 'flex-wrap' 속성은 무엇을 설정하나요?",
+      answers: [
+        {
+          text: "플렉스 컨테이너 내의 아이템의 수직 정렬을 설정합니다.",
+          correct: false,
+        },
+        {
+          text: "플렉스 컨테이너 내의 아이템의 크기를 조정합니다.",
+          correct: false,
+        },
+        {
+          text: "플렉스 컨테이너 내의 아이템을 여러 줄로 배치할지 여부를 설정합니다.",
+          correct: true,
+        },
+        { text: "플렉스 컨테이너의 방향을 설정합니다.", correct: false },
+      ],
+    },
+    {
+      question:
+        "'transition' 속성에서 'transition-duration'은 무엇을 설정하나요?",
+      answers: [
+        { text: "애니메이션의 지연 시간을 설정합니다.", correct: false },
+        { text: "애니메이션의 지속 시간을 설정합니다.", correct: true },
+        { text: "애니메이션이 적용될 속성을 설정합니다.", correct: false },
+        { text: "애니메이션의 반복 횟수를 설정합니다.", correct: false },
+      ],
+    },
+    {
+      question:
+        "그리드 넘버를 이용해 그리드 아이템의 열 시작 위치와 종료 위치를 지정하는 속성이 아닌 것은 무엇인가요?",
+      answers: [
+        { text: "grid-column-start", correct: false },
+        { text: "grid-row-start", correct: false },
+        { text: "grid-center-start", correct: true },
+        { text: "grid-column-end", correct: false },
+      ],
+    },
+  ],
 };
