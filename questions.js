@@ -770,15 +770,6 @@ const questions = {
       ],
     },
     {
-      question: "객체 리터럴에서 값을 호출하기 위해 사용하는 방법 중 올바르지 않은 것은 무엇인가요?",
-      answers: [
-        { text: "object.key", correct: false },
-        { text: "object['key']", correct: false },
-        { text: "object(key)", correct: true },
-        { text: "object.getKey()", correct: false },
-      ],
-    },
-    {
       question: "자바스크립트에서 숫자를 문자열로 변환하는 방법은 무엇인가요?",
       answers: [
         { text: "String()", correct: true },
@@ -795,6 +786,33 @@ const questions = {
         { text: "조건 : 참일 때 값 ? 거짓일 때 값", correct: false },
         { text: "조건 : 참일 때 값;", correct: false },
       ],
-    }
+    },
+    {
+      question: "반복문에서 continue 문을 만나면 어떤 일이 발생하나요?",
+      answers: [
+        { text: "현재 반복을 중단하고 다음 반복을 시작합니다.", correct: true },
+        { text: "반복문을 완전히 종료합니다.", correct: false },
+        { text: "에러가 발생합니다.", correct: false },
+        { text: "현재 반복을 계속 진행합니다.", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \nlet x = 5;\nconsole.log(++x);",
+      answers: [
+        { text: "5", correct: false },
+        { text: "6", correct: true },
+        { text: "4", correct: false },
+        { text: "5.5", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \nlet y = 5;\nconsole.log(y++);",
+      answers: [
+        { text: "5", correct: true },
+        { text: "6", correct: false },
+        { text: "4", correct: false },
+        { text: "5.5", correct: false },
+      ],
+    },
   ]
 };
