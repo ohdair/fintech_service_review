@@ -814,5 +814,79 @@ const questions = {
         { text: "5.5", correct: false },
       ],
     },
+  ],
+  "2024-07-08": [
+    {
+      question: "파이썬에서 실수형 데이터를 나타내는 자료형은 무엇인가요?",
+      answers: [
+        { text: "float", correct: true },
+        { text: "int", correct: false },
+        { text: "str", correct: false },
+        { text: "double", correct: false },
+      ],
+    },
+    {
+      question: "파이썬에서 여러 줄 문자열을 작성하는 방법으로 올바른 것은 무엇인가요?",
+      answers: [
+        { text: "\"\"\"여러 줄 문자열\"\"\"", correct: true },
+        { text: "'여러 줄 문자열'", correct: false },
+        { text: "`여러 줄 문자열`", correct: false },
+        { text: "[여러 줄 문자열]", correct: false },
+      ],
+    },
+    {
+      question: "파이썬에서 변수의 타입을 확인하는 함수는 무엇인가요?",
+      answers: [
+        { text: "type()", correct: true },
+        { text: "len()", correct: false },
+        { text: "print()", correct: false },
+        { text: "typeof()", correct: false },
+      ],
+    },
+    {
+      question: "다음 중 튜플의 특성으로 올바른 것은 무엇인가요?",
+      answers: [
+        { text: "변경 불가능하다(immutable)", correct: true },
+        { text: "변경 가능하다(mutable)", correct: false },
+        { text: "키와 값으로 이루어져 있다", correct: false },
+        { text: "인덱싱이 불가능하다", correct: false },
+      ],
+    },
+    {
+      question: "다음 중 딕셔너리의 특성으로 올바른 것은 무엇인가요?",
+      answers: [
+        { text: "키와 값으로 이루어져 있다", correct: true },
+        { text: "변경 불가능하다(immutable)", correct: false },
+        { text: "인덱싱이 가능하다", correct: false },
+        { text: "순서가 있다", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \nlist = [0, 1, 2, 3, 4, 5]\nprint(list[1:4])",
+      answers: [
+        { text: "[1, 2, 3]", correct: true },
+        { text: "[0, 1, 2]", correct: false },
+        { text: "[2, 3, 4]", correct: false },
+        { text: "[1, 2, 3, 4]", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \nlist = [0, 1, 2, 3, 4, 5]\nprint(list[::-1])",
+      answers: [
+        { text: "[5, 4, 3, 2, 1, 0]", correct: true },
+        { text: "[5]", correct: false },
+        { text: "[0, 1, 2, 3, 4, 5]", correct: false },
+        { text: "[0]", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \nlist = [0, 1, 2, 3, 4, 5]\nprint(list[3:])",
+      answers: [
+        { text: "[3, 4, 5]", correct: true },
+        { text: "[2, 3, 4]", correct: false },
+        { text: "[0, 1, 2]", correct: false },
+        { text: "[1, 2, 3]", correct: false },
+      ],
+    },
   ]
 };
