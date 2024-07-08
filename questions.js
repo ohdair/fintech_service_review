@@ -826,15 +826,6 @@ const questions = {
       ],
     },
     {
-      question: "파이썬에서 여러 줄 문자열을 작성하는 방법으로 올바른 것은 무엇인가요?",
-      answers: [
-        { text: "\"\"\"여러 줄 문자열\"\"\"", correct: true },
-        { text: "'여러 줄 문자열'", correct: false },
-        { text: "`여러 줄 문자열`", correct: false },
-        { text: "[여러 줄 문자열]", correct: false },
-      ],
-    },
-    {
       question: "파이썬에서 변수의 타입을 확인하는 함수는 무엇인가요?",
       answers: [
         { text: "type()", correct: true },
