@@ -705,4 +705,96 @@ const questions = {
       ],
     },
   ],
+  "2024-07-05": [
+    {
+      question: "자바스크립트에서 한 줄 주석을 작성하는 방법은 무엇인가요?",
+      answers: [
+        { text: "//", correct: true },
+        { text: "/*", correct: false },
+        { text: "<!--", correct: false },
+        { text: "#", correct: false },
+      ],
+    },
+    {
+      question: "변수 이름을 만드는 방법 중 옳은 것은 무엇인가요?",
+      answers: [
+        { text: "카멜 표기법", correct: true },
+        { text: "파스칼 표기법", correct: false },
+        { text: "스네이크 표기법", correct: false },
+        { text: "케밥 표기법", correct: false },
+      ],
+    },
+    {
+      question: "템플릿 문자열을 작성하기 위해 사용하는 기호는 무엇인가요?",
+      answers: [
+        { text: "`", correct: true },
+        { text: "\"", correct: false },
+        { text: "'", correct: false },
+        { text: "()", correct: false },
+      ],
+    },
+    {
+      question: "배열의 첫 번째 요소를 접근하기 위해 사용하는 인덱스는 무엇인가요?",
+      answers: [
+        { text: "0", correct: true },
+        { text: "1", correct: false },
+        { text: "-1", correct: false },
+        { text: "첫번째", correct: false },
+      ],
+    },
+    {
+      question: "자바스크립트에서 '엄격한 일치 연산자'는 무엇인가요?",
+      answers: [
+        { text: "===", correct: true },
+        { text: "==", correct: false },
+        { text: "=", correct: false },
+        { text: "!=", correct: false },
+      ],
+    },
+    {
+      question: "다음 중 상수형 변수를 선언할 수 있는 키워드는 무엇인가요?",
+      answers: [
+        { text: "const", correct: true },
+        { text: "let", correct: false },
+        { text: "var", correct: false },
+        { text: "static", correct: false },
+      ],
+    },
+    {
+      question: "배열의 마지막 요소를 제거하는 메서드는 무엇인가요?",
+      answers: [
+        { text: "pop()", correct: true },
+        { text: "push()", correct: false },
+        { text: "shift()", correct: false },
+        { text: "unshift()", correct: false },
+      ],
+    },
+    {
+      question: "객체 리터럴에서 값을 호출하기 위해 사용하는 방법 중 올바르지 않은 것은 무엇인가요?",
+      answers: [
+        { text: "object.key", correct: false },
+        { text: "object['key']", correct: false },
+        { text: "object(key)", correct: true },
+        { text: "object.getKey()", correct: false },
+      ],
+    },
+    {
+      question: "자바스크립트에서 숫자를 문자열로 변환하는 방법은 무엇인가요?",
+      answers: [
+        { text: "String()", correct: true },
+        { text: "Number()", correct: false },
+        { text: "parseInt()", correct: false },
+        { text: "toNumber()", correct: false },
+      ],
+    },
+    {
+      question: "자바스크립트에서 삼항 연산자의 기본 형태는 무엇인가요?",
+      answers: [
+        { text: "조건 ? 참일 때 값 : 거짓일 때 값", correct: true },
+        { text: "조건 ? 참일 때 값;", correct: false },
+        { text: "조건 : 참일 때 값 ? 거짓일 때 값", correct: false },
+        { text: "조건 : 참일 때 값;", correct: false },
+      ],
+    }
+  ]
 };
