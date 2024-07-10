@@ -1070,4 +1070,202 @@ const questions = {
       ],
     },
   ],
+  "2024-07-10": [
+    {
+      question: "다음 중 리스트에서 특정 요소를 제거하는 메서드는 무엇인가요?",
+      answers: [
+        { text: ".remove()", correct: true },
+        { text: ".delete()", correct: false },
+        { text: ".discard()", correct: false },
+        { text: ".erase()", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요?\nlist1 = [1, 2, 3]\nlist1.append(4)\nprint(list1)",
+      answers: [
+        { text: "[1, 2, 3, 4]", correct: true },
+        { text: "[4, 1, 2, 3]", correct: false },
+        { text: "[1, 2, 3]", correct: false },
+        { text: "[1, 2, 3, [4]]", correct: false },
+      ],
+    },
+    {
+      question: "다음 중 튜플을 생성하는 올바른 방법은 무엇인가요?",
+      answers: [
+        { text: "tuple1 = (1, 2, 3)", correct: true },
+        { text: "tuple1 = [1, 2, 3]", correct: false },
+        { text: "tuple1 = {1, 2, 3}", correct: false },
+        { text: "tuple1 = <1, 2, 3>", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요?\ntuple1 = (1, 2, 3)\nprint(len(tuple1))",
+      answers: [
+        { text: "3", correct: true },
+        { text: "2", correct: false },
+        { text: "1", correct: false },
+        { text: "Error", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 중 dictionary에서 특정 키의 값을 가져오는 메서드는 무엇인가요?",
+      answers: [
+        { text: ".get()", correct: true },
+        { text: ".find()", correct: false },
+        { text: ".search()", correct: false },
+        { text: ".retrieve()", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요?\ndict1 = {'a': 1, 'b': 2}\nprint(dict1['a'])",
+      answers: [
+        { text: "1", correct: true },
+        { text: "2", correct: false },
+        { text: "'a'", correct: false },
+        { text: "Error", correct: false },
+      ],
+    },
+    {
+      question: "다음 중 리스트를 정렬하는 메서드는 무엇인가요?",
+      answers: [
+        { text: ".sort()", correct: true },
+        { text: ".order()", correct: false },
+        { text: ".arrange()", correct: false },
+        { text: ".lineup()", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요?\nlist2 = [3, 1, 2]\nlist2.sort()\nprint(list2)",
+      answers: [
+        { text: "[1, 2, 3]", correct: true },
+        { text: "[3, 1, 2]", correct: false },
+        { text: "[2, 1, 3]", correct: false },
+        { text: "[3, 2, 1]", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 중 dictionary에서 특정 키-값 쌍을 제거하는 메서드는 무엇인가요?",
+      answers: [
+        { text: ".pop()", correct: true },
+        { text: ".remove()", correct: false },
+        { text: ".delete()", correct: false },
+        { text: ".discard()", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요?\ndict2 = {'a': 1, 'b': 2}\ndict2.pop('a')\nprint(dict2)",
+      answers: [
+        { text: "{'b': 2}", correct: true },
+        { text: "{'a': 1}", correct: false },
+        { text: "{'a': 1, 'b': 2}", correct: false },
+        { text: "{}", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 중 조건문을 사용하여 'a'가 10보다 크다면 '크다'를 출력하는 코드는 무엇인가요?",
+      answers: [
+        { text: "if a > 10:\n    print('크다')", correct: true },
+        { text: "if a < 10:\n    print('크다')", correct: false },
+        { text: "if a >= 10:\n    print('크다')", correct: false },
+        { text: "if a == 10:\n    print('크다')", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요?\na = 5\nif a > 3:\n    print('크다')\nelse:\n    print('작다')",
+      answers: [
+        { text: "'크다'", correct: true },
+        { text: "'작다'", correct: false },
+        { text: "'크다'와 '작다' 둘 다 출력됨", correct: false },
+        { text: "아무것도 출력되지 않음", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 중 튜플의 요소를 변경하려고 할 때 발생하는 에러는 무엇인가요?",
+      answers: [
+        { text: "TypeError", correct: true },
+        { text: "ValueError", correct: false },
+        { text: "IndexError", correct: false },
+        { text: "KeyError", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요?\ntuple2 = (1, 2, 3)\ntuple2[1] = 4",
+      answers: [
+        { text: "TypeError", correct: true },
+        { text: "ValueError", correct: false },
+        { text: "IndexError", correct: false },
+        { text: "성공적으로 실행됨", correct: false },
+      ],
+    },
+    {
+      question: "다음 중 리스트의 모든 요소를 제거하는 메서드는 무엇인가요?",
+      answers: [
+        { text: ".clear()", correct: true },
+        { text: ".remove_all()", correct: false },
+        { text: ".delete_all()", correct: false },
+        { text: ".erase_all()", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요?\nlist3 = [1, 2, 3]\nlist3.clear()\nprint(list3)",
+      answers: [
+        { text: "[]", correct: true },
+        { text: "[1, 2, 3]", correct: false },
+        { text: "[None, None, None]", correct: false },
+        { text: "Error", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 중 dictionary에서 모든 키를 리스트로 반환하는 메서드는 무엇인가요?",
+      answers: [
+        { text: ".keys()", correct: true },
+        { text: ".all_keys()", correct: false },
+        { text: ".get_keys()", correct: false },
+        { text: ".list_keys()", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요?\ndict3 = {'a': 1, 'b': 2}\nprint(list(dict3.keys()))",
+      answers: [
+        { text: "['a', 'b']", correct: true },
+        { text: "[1, 2]", correct: false },
+        { text: "[('a', 1), ('b', 2)]", correct: false },
+        { text: "Error", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 중 리스트의 요소를 역순으로 정렬하는 메서드는 무엇인가요?",
+      answers: [
+        { text: ".reverse()", correct: true },
+        { text: ".invert()", correct: false },
+        { text: ".flip()", correct: false },
+        { text: ".backward()", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요?\nlist4 = [1, 2, 3]\nlist4.reverse()\nprint(list4)",
+      answers: [
+        { text: "[3, 2, 1]", correct: true },
+        { text: "[1, 2, 3]", correct: false },
+        { text: "[2, 1, 3]", correct: false },
+        { text: "[1, 3, 2]", correct: false },
+      ],
+    },
+  ],
 };
