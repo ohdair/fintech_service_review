@@ -728,13 +728,14 @@ const questions = {
       question: "템플릿 문자열을 작성하기 위해 사용하는 기호는 무엇인가요?",
       answers: [
         { text: "`", correct: true },
-        { text: "\"", correct: false },
+        { text: '"', correct: false },
         { text: "'", correct: false },
         { text: "()", correct: false },
       ],
     },
     {
-      question: "배열의 첫 번째 요소를 접근하기 위해 사용하는 인덱스는 무엇인가요?",
+      question:
+        "배열의 첫 번째 요소를 접근하기 위해 사용하는 인덱스는 무엇인가요?",
       answers: [
         { text: "0", correct: true },
         { text: "1", correct: false },
@@ -797,7 +798,8 @@ const questions = {
       ],
     },
     {
-      question: "다음 코드의 실행 결과는 무엇인가요? \nlet x = 5;\nconsole.log(++x);",
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nlet x = 5;\nconsole.log(++x);",
       answers: [
         { text: "5", correct: false },
         { text: "6", correct: true },
@@ -806,7 +808,8 @@ const questions = {
       ],
     },
     {
-      question: "다음 코드의 실행 결과는 무엇인가요? \nlet y = 5;\nconsole.log(y++);",
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nlet y = 5;\nconsole.log(y++);",
       answers: [
         { text: "5", correct: true },
         { text: "6", correct: false },
@@ -853,7 +856,8 @@ const questions = {
       ],
     },
     {
-      question: "다음 코드의 실행 결과는 무엇인가요? \nlist = [0, 1, 2, 3, 4, 5]\nprint(list[1:4])",
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nlist = [0, 1, 2, 3, 4, 5]\nprint(list[1:4])",
       answers: [
         { text: "[1, 2, 3]", correct: true },
         { text: "[0, 1, 2]", correct: false },
@@ -862,7 +866,8 @@ const questions = {
       ],
     },
     {
-      question: "다음 코드의 실행 결과는 무엇인가요? \nlist = [0, 1, 2, 3, 4, 5]\nprint(list[::-1])",
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nlist = [0, 1, 2, 3, 4, 5]\nprint(list[::-1])",
       answers: [
         { text: "[5, 4, 3, 2, 1, 0]", correct: true },
         { text: "[5]", correct: false },
@@ -871,7 +876,8 @@ const questions = {
       ],
     },
     {
-      question: "다음 코드의 실행 결과는 무엇인가요? \nlist = [0, 1, 2, 3, 4, 5]\nprint(list[3:])",
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nlist = [0, 1, 2, 3, 4, 5]\nprint(list[3:])",
       answers: [
         { text: "[3, 4, 5]", correct: true },
         { text: "[2, 3, 4]", correct: false },
@@ -879,5 +885,189 @@ const questions = {
         { text: "[1, 2, 3]", correct: false },
       ],
     },
-  ]
+  ],
+  "2024-07-09": [
+    {
+      question:
+        "다음 중 문자열의 특정 부분을 다른 문자열로 바꾸는 메서드는 무엇인가요?",
+      answers: [
+        { text: ".replace()", correct: true },
+        { text: ".split()", correct: false },
+        { text: ".join()", correct: false },
+        { text: ".strip()", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \n'split me'.split()",
+      answers: [
+        { text: "['split', 'me']", correct: true },
+        { text: "['split me']", correct: false },
+        { text: "['s', 'p', 'l', 'i', 't', ' ', 'm', 'e']", correct: false },
+        { text: "['split', '', 'me']", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \n','.join(['a', 'b', 'c'])",
+      answers: [
+        { text: "'a,b,c'", correct: true },
+        { text: "['a,b,c']", correct: false },
+        { text: "'abc'", correct: false },
+        { text: "'a, b, c'", correct: false },
+      ],
+    },
+    {
+      question: "다음 중 문자열 양쪽의 공백을 제거하는 메서드는 무엇인가요?",
+      answers: [
+        { text: ".strip()", correct: true },
+        { text: ".replace()", correct: false },
+        { text: ".split()", correct: false },
+        { text: ".join()", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \n'  hello  '.strip()",
+      answers: [
+        { text: "'hello'", correct: true },
+        { text: "'  hello'", correct: false },
+        { text: "'hello  '", correct: false },
+        { text: "'  hello  '", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nstring = 'hello'\nstring[:2]",
+      answers: [
+        { text: "'he'", correct: true },
+        { text: "'he'", correct: true },
+        { text: "'hel'", correct: false },
+        { text: "'ho'", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nstring = 'hello'\nstring[2:]",
+      answers: [
+        { text: "'llo'", correct: true },
+        { text: "'hello'", correct: false },
+        { text: "'heo'", correct: false },
+        { text: "'he'", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nstring = 'hello'\nstring[::-1]",
+      answers: [
+        { text: "'olleh'", correct: true },
+        { text: "'hello'", correct: false },
+        { text: "'ehllo'", correct: false },
+        { text: "'hlloe'", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \n'hello world'.replace('world', 'Python')",
+      answers: [
+        { text: "'hello Python'", correct: true },
+        { text: "'hello world'", correct: false },
+        { text: "'hello'", correct: false },
+        { text: "'Python world'", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \n'a b c'.split()",
+      answers: [
+        { text: "['a', 'b', 'c']", correct: true },
+        { text: "['a b c']", correct: false },
+        { text: "['a', '', 'b', '', 'c']", correct: false },
+        { text: "['abc']", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \n'-'.join(['1', '2', '3'])",
+      answers: [
+        { text: "'1-2-3'", correct: true },
+        { text: "'123'", correct: false },
+        { text: "'1 2 3'", correct: false },
+        { text: "'1--2--3'", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 중 인덱싱을 통해 문자열 'python'의 첫 두 글자를 가져오는 올바른 방법은 무엇인가요?",
+      answers: [
+        { text: "'python'[:2]", correct: true },
+        { text: "'python'[2:]", correct: false },
+        { text: "'python'[::-1]", correct: false },
+        { text: "'python'[0:2]", correct: true },
+      ],
+    },
+    {
+      question:
+        "다음 중 문자열 'python'의 세 번째 글자부터 끝까지를 가져오는 올바른 방법은 무엇인가요?",
+      answers: [
+        { text: "'python'[2:]", correct: true },
+        { text: "'python'[:2]", correct: false },
+        { text: "'python'[::-1]", correct: false },
+        { text: "'python'[0:2]", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 중 문자열 'python'을 거꾸로 뒤집어 출력하는 올바른 방법은 무엇인가요?",
+      answers: [
+        { text: "'python'[::-1]", correct: true },
+        { text: "'python'[:2]", correct: false },
+        { text: "'python'[2:]", correct: false },
+        { text: "'python'[0:2]", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 중 문자열 'hello'에서 'e'를 'a'로 바꾸는 올바른 방법은 무엇인가요?",
+      answers: [
+        { text: "'hello'.replace('e', 'a')", correct: true },
+        { text: "'hello'.split('e').join('a')", correct: false },
+        { text: "'hello'.strip('e').join('a')", correct: false },
+        { text: "'hello'.replace('h', 'a')", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \n[1, 2, 3] + [4, 5, 6]",
+      answers: [
+        { text: "[1, 2, 3, 4, 5, 6]", correct: true },
+        { text: "[5, 7, 9]", correct: false },
+        { text: "[1, 2, 3, [4, 5, 6]]", correct: false },
+        { text: "[1, 2, 3, 4, 5]", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \n2 ** 3",
+      answers: [
+        { text: "8", correct: true },
+        { text: "6", correct: false },
+        { text: "9", correct: false },
+        { text: "5", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \n10 // 3",
+      answers: [
+        { text: "3", correct: true },
+        { text: "3.33", correct: false },
+        { text: "4", correct: false },
+        { text: "10", correct: false },
+      ],
+    },
+    {
+      question: "다음 코드의 실행 결과는 무엇인가요? \n10 % 3",
+      answers: [
+        { text: "1", correct: true },
+        { text: "3", correct: false },
+        { text: "0", correct: false },
+        { text: "10", correct: false },
+      ],
+    },
+  ],
 };
