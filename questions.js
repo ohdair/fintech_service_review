@@ -1268,4 +1268,185 @@ const questions = {
       ],
     },
   ],
+  "2024-07-11": [
+    {
+      question:
+        "반복문 내에서 변수를 유지하기 위해서는 어디에서 변수를 선언해야 하나요?",
+      answers: [
+        { text: "반복문 블록 밖에서", correct: true },
+        { text: "반복문 블록 안에서", correct: false },
+        { text: "반복문과 상관없이", correct: false },
+        { text: "반복문 내 조건문 안에서", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nresult = 0\nfor i in range(5):\n    result += i\nprint(result)",
+      answers: [
+        { text: "10", correct: true },
+        { text: "15", correct: false },
+        { text: "5", correct: false },
+        { text: "20", correct: false },
+      ],
+    },
+    {
+      question:
+        "for 문을 이용해 딕셔너리를 반복할 때 기본적으로 얻을 수 있는 것은 무엇인가요?",
+      answers: [
+        { text: "key", correct: true },
+        { text: "value", correct: false },
+        { text: "key와 value", correct: false },
+        { text: "index", correct: false },
+      ],
+    },
+    {
+      question: "다음 중 파이썬의 for 문을 사용할 수 있는 자료형은 무엇인가요?",
+      answers: [
+        { text: "문자열, 리스트, 튜플", correct: true },
+        { text: "정수, 리스트, 딕셔너리", correct: false },
+        { text: "집합, 정수, 문자열", correct: false },
+        { text: "딕셔너리, 리스트, 불린", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nfor char in 'hello':\n    print(char, end='')",
+      answers: [
+        { text: "hello", correct: true },
+        { text: "h e l l o", correct: false },
+        { text: "h\ne\nl\nl\no", correct: false },
+        { text: "'hello'", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nd = {'a': 1, 'b': 2}\nfor item in d:\n    print(item)",
+      answers: [
+        { text: "a\nb", correct: true },
+        { text: "1\n2", correct: false },
+        { text: "a: 1\nb: 2", correct: false },
+        { text: "a\nb\n1\n2", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nnums = [1, 2, 3]\nsum = 0\nfor num in nums:\n    sum += num\nprint(sum)",
+      answers: [
+        { text: "6", correct: true },
+        { text: "1", correct: false },
+        { text: "2", correct: false },
+        { text: "3", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 중 반복문을 사용하여 리스트의 요소를 출력하는 방법으로 올바른 것은 무엇인가요?",
+      answers: [
+        { text: "for element in list:\n    print(element)", correct: true },
+        { text: "while element in list:\n    print(element)", correct: false },
+        { text: "for list in element:\n    print(element)", correct: false },
+        { text: "for element in list:\n    print(list)", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nfor i in range(3):\n    print(i)",
+      answers: [
+        { text: "0\n1\n2", correct: true },
+        { text: "1\n2\n3", correct: false },
+        { text: "0\n1\n2\n3", correct: false },
+        { text: "0\n1", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nnums = (4, 5, 6)\nfor num in nums:\n    print(num)",
+      answers: [
+        { text: "4\n5\n6", correct: true },
+        { text: "456", correct: false },
+        { text: "4, 5, 6", correct: false },
+        { text: "4 5 6", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \ntuple = (1, 2, 3)\nfor value in reversed(tuple):\n    print(value)",
+      answers: [
+        { text: "3\n2\n1", correct: true },
+        { text: "1\n2\n3", correct: false },
+        { text: "1\n2\n3\n4", correct: false },
+        { text: "3\n2\n1\n0", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \ntuple = ('a', 'b', 'c')\nfor index, value in enumerate(tuple):\n    print(index, value)",
+      answers: [
+        { text: "0 a\n1 b\n2 c", correct: true },
+        { text: "a 0\nb 1\nc 2", correct: false },
+        { text: "1 a\n2 b\n3 c", correct: false },
+        { text: "a\nb\nc", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \ntuple1 = (1, 2, 3)\ntuple2 = ('a', 'b', 'c')\nfor num, char in zip(tuple1, tuple2):\n    print(num, char)",
+      answers: [
+        { text: "1 a\n2 b\n3 c", correct: true },
+        { text: "a 1\nb 2\nc 3", correct: false },
+        { text: "1\n2\n3\na\nb\nc", correct: false },
+        { text: "a b c\n1 2 3", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \ntuple = (1, 2, 3, 4, 5)\nfor value in tuple[1:4]:\n    print(value)",
+      answers: [
+        { text: "2\n3\n4", correct: true },
+        { text: "1\n2\n3", correct: false },
+        { text: "3\n4\n5", correct: false },
+        { text: "2\n3\n4\n5", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \ntuple = (1, 2, 3, 4, 5)\nfor value in tuple[::-1]:\n    print(value)",
+      answers: [
+        { text: "5\n4\n3\n2\n1", correct: true },
+        { text: "1\n2\n3\n4\n5", correct: false },
+        { text: "2\n3\n4\n5\n1", correct: false },
+        { text: "5\n3\n1", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \ncount = 0\nwhile count < 3:\n    print(count)\n    count += 1",
+      answers: [
+        { text: "0\n1\n2", correct: true },
+        { text: "1\n2\n3", correct: false },
+        { text: "0\n1\n2\n3", correct: false },
+        { text: "0\n1", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \ncount = 5\nwhile count > 0:\n    print(count)\n    count -= 1",
+      answers: [
+        { text: "5\n4\n3\n2\n1", correct: true },
+        { text: "4\n3\n2\n1", correct: false },
+        { text: "5\n4\n3\n2\n1\n0", correct: false },
+        { text: "5\n4\n3", correct: false },
+      ],
+    },
+    {
+      question:
+        "다음 코드의 실행 결과는 무엇인가요? \nnum = 0\nwhile num < 5:\n    num += 1\n    if num == 3:\n        continue\n    print(num)",
+      answers: [
+        { text: "1\n2\n4\n5", correct: true },
+        { text: "1\n2\n3\n4\n5", correct: false },
+        { text: "0\n1\n2\n4\n5", correct: false },
+        { text: "1\n2\n3\n5", correct: false },
+      ],
+    },
+  ],
 };
